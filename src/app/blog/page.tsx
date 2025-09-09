@@ -5,7 +5,7 @@ export default function BlogPage() {
 
     return (
         <>
-            <h2 className="text-2xl">Page de blog</h2>
+            <h1 className="text-4xl">Page de blog</h1>
         </>
     )
 }

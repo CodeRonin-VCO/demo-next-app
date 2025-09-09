@@ -1,7 +1,11 @@
+type BlogSlugPageProps = {
+    params: Promise<{
+        slug: string
+    }>;
+};
 
-
-export default function BlogSlugPage() {
-    
+export default async function BlogSlugPage({ params }:BlogSlugPageProps) {
+    const blogSlug = (await params).slug;
 
     return (
         <>

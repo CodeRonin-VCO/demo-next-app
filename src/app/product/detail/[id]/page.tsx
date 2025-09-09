@@ -2,14 +2,14 @@ import { notFound } from "next/navigation.js";
 
 type DetailProductPageProps = {
     params: Promise<{
-        id: string
+        id: string //! comme c'est un paramètre, ce sera toujours un string
     }>;
 };
 
 export default async function DetailProductPage({ params }: DetailProductPageProps) {
-    const demoId = parseInt((await params).id);
+    const detailId = parseInt((await params).id);
 
-    if (isNaN(demoId) || demoId < 0 || demoId > 100) {
+    if (isNaN(detailId) || detailId < 0 || detailId > 100) {
         // Fais la page 404 automatiquement (méthode de next.js)
         notFound();
     };
