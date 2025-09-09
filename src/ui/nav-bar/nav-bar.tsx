@@ -7,7 +7,6 @@ const links = [
     { href: "/product/detail/42", name: "Page produit détails", icon: "🍪" },
     { href: "/product/add", name: "Page produit add", icon: "🅰️" },
     { href: "/blog", name: "Page blog", icon: "🗒️" },
-    { href: "/blog/bonjour-dc", name: "Page slug", icon: "🫵" },
 ];
 
 export default function NavBar() {

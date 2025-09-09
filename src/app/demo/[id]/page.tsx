@@ -1,3 +1,4 @@
+import bookService from "@/services/book.service";
 import { notFound } from "next/navigation.js";
 
 // Dans le typage, ce ne sont pas de vrai objet, on peut donc mettre des ; partout.
@@ -11,16 +12,31 @@ type DemoDetailPageProps = {
 export default async function DemoDetailPage({ params }: DemoDetailPageProps) {
     // On doit faire un await de params pour pouvoir récupérer l'id
     const demoId = parseInt((await params).id);
+    
+    //? Récupérer la réponse de l'api (voir fichier book.d.ts)
+    // let book;
+    // try {
+    //     book = bookService.getById(demoId);
+    // } catch (error) {
+    //     notFound();
+    // }
 
-    if (isNaN(demoId) || demoId < 0 || demoId > 100) {
-        // Fais la page 404 automatiquement (méthode de next.js)
-        notFound();
-    };
+    // ? Code async → Provoque l'utilisation du composant "loading" si présent
+    const book2 = await bookService.getById(demoId).catch(() => notFound());
+
+    // if (isNaN(demoId) || demoId < 0 || demoId > 100) {
+    //?     // Fais la page 404 automatiquement (méthode de next.js)
+    //     notFound();
+
+    // };
 
     return (
         <>
             <h1 className="text-4xl">Page détail</h1>
             <h2 className="text-2xl">L'id est : {demoId}</h2>
+            <p>{book2.name}</p>
+            <p>{book2.description}</p>
+            <p>{book2.releaseYear}</p>
         </>
     )
 }

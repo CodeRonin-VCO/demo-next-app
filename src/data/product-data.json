@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Café Noir",
+    "description": "Tasse de café filtre chaud",
+    "price": 2.50,
+    "isFood": true,
+    "vat": 6,
+    "stock": 150
+  },
+  {
+    "id": 2,
+    "name": "Croissant au Beurre",
+    "description": "Viennoiserie pur beurre",
+    "price": 1.80,
+    "isFood": true,
+    "vat": 6,
+    "stock": 80
+  },
+  {
+    "id": 3,
+    "name": "Sandwich Jambon-Fromage",
+    "description": "Pain baguette, jambon, emmental, beurre",
+    "price": 4.50,
+    "isFood": true,
+    "vat": 12,
+    "stock": 45
+  },
+  {
+    "id": 5,
+    "name": "Bouteille d'Eau 50cl",
+    "description": "Eau de source plate",
+    "price": 1.20,
+    "isFood": true,
+    "vat": 6,
+    "stock": 200
+  },
+  {
+    "id": 6,
+    "name": "Canette de Soda",
+    "description": "Boisson gazeuse sucrée, 33cl",
+    "price": 2.10,
+    "isFood": true,
+    "vat": 12,
+    "stock": 350
+  },
+  {
+    "id": 8,
+    "name": "Paquet de Chips",
+    "description": "Saveur sel et vinaigre, 150g",
+    "price": 2.75,
+    "isFood": true,
+    "vat": 12,
+    "stock": 120
+  },
+  {
+    "id": 9,
+    "name": "Barre Chocolatée",
+    "description": "Chocolat au lait et noisettes",
+    "price": 1.90,
+    "isFood": true,
+    "vat": 12,
+    "stock": 180
+  },
+  {
+    "id": 11,
+    "name": "Piles AA (x4)",
+    "description": "Piles alcalines longue durée",
+    "price": 5.99,
+    "isFood": false,
+    "vat": 21,
+    "stock": 60
+  },
+  {
+    "id": 12,
+    "name": "Magazine du Jour",
+    "description": "Presse quotidienne",
+    "price": 3.50,
+    "isFood": false,
+    "vat": 21,
+    "stock": 25
+  },
+  {
+    "id": 14,
+    "name": "Paquet de Mouchoirs",
+    "description": "Étui de 10 mouchoirs en papier",
+    "price": 0.90,
+    "isFood": false,
+    "vat": 21,
+    "stock": 400
+  },
+  {
+    "id": 15,
+    "name": "Salade César",
+    "description": "Salade, poulet, croûtons, sauce César",
+    "price": 6.80,
+    "isFood": true,
+    "vat": 12,
+    "stock": 30
+  },
+  {
+    "id": 17,
+    "name": "Yaourt aux Fruits",
+    "description": "Yaourt brassé à la fraise, 125g",
+    "price": 1.50,
+    "isFood": true,
+    "vat": 6,
+    "stock": 90
+  },
+  {
+    "id": 18,
+    "name": "Chewing-gum Menthe",
+    "description": "Tablettes sans sucre",
+    "price": 2.20,
+    "isFood": true,
+    "vat": 12,
+    "stock": 250
+  },
+  {
+    "id": 20,
+    "name": "Brosse à Dents de Voyage",
+    "description": "Avec capuchon de protection",
+    "price": 3.10,
+    "isFood": false,
+    "vat": 21,
+    "stock": 75
+  },
+  {
+    "id": 21,
+    "name": "Mini Dentifrice",
+    "description": "Tube de 25ml",
+    "price": 2.50,
+    "isFood": false,
+    "vat": 21,
+    "stock": 75
+  },
+  {
+    "id": 23,
+    "name": "Jus d'Orange Pressé 25cl",
+    "description": "100% pur jus",
+    "price": 3.20,
+    "isFood": true,
+    "vat": 6,
+    "stock": 65
+  },
+  {
+    "id": 24,
+    "name": "Pain de Mie",
+    "description": "Sachet de 14 tranches",
+    "price": 2.90,
+    "isFood": true,
+    "vat": 6,
+    "stock": 40
+  },
+  {
+    "id": 26,
+    "name": "Chargeur USB-C",
+    "description": "Câble et adaptateur secteur 20W",
+    "price": 15.00,
+    "isFood": false,
+    "vat": 21,
+    "stock": 35
+  },
+  {
+    "id": 27,
+    "name": "Soupe Instantanée",
+    "description": "Saveur poulet et nouilles",
+    "price": 2.40,
+    "isFood": true,
+    "vat": 12,
+    "stock": 110
+  },
+  {
+    "id": 30,
+    "name": "Briquet",
+    "description": "Briquet à pierre classique",
+    "price": 1.80,
+    "isFood": false,
+    "vat": 21,
+    "stock": 300
+  }
+]
