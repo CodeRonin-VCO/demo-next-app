@@ -4,8 +4,7 @@ const links = [
     { href: "/", name: "Page d'accueil", icon: "🛖" },
     { href: "/demo", name: "Page demo", icon: "😶‍🌫️" },
     { href: "/product", name: "Page produit", icon: "🧈" },
-    { href: "/product/detail/42", name: "Page produit détails", icon: "🍪" },
-    { href: "/product/add", name: "Page produit add", icon: "🅰️" },
+    { href: "/product/add", name: "Page ajouter produit", icon: "🅰️" },
     { href: "/blog", name: "Page blog", icon: "🗒️" },
 ];
 
